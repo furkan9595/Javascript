@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+
+<button id="renkdegistir" type="button" name="button"  >Choose Background Color</button>
+
+<script>
+var renkButton=document.querySelector("#renkdegistir");
+renkButton.onclick=()=>{
+var renk1=Math.round(Math.random()*255);
+var renk2=Math.round(Math.random()*255);
+var renk3=Math.round(Math.random()*255);
+document.body.style.background="rgb("+renk1+","+renk2+","+renk3+")";
+}
+</script>
+
+
+
+
+
+</body>
+</html>
