@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <p id="demo"></p>
+
+<script>
+
+const data =new Set(["a",5.5,"c","d"]);
+let text=""
+data.add("bv");
+
+data.forEach (function(value){
+  text+=value+"<br/>";
+});
+
+
+document.getElementById("demo").innerHTML=text;
+
+  </script>
+
+
+
+</body>
+</html>
